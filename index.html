@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="js/jquery-3.1.1.min.js"></script>
   <title>EricLiao 廖晨皓</title>
 </head>
 <body>
@@ -20,6 +21,7 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </div>
+      <!-- <a href="#" ><img src="img/bergur_03.png" class="showmenu"></a> -->
       <div class="clearfix"></div>
     </div>
     <div class="content">
@@ -119,5 +121,13 @@
       </ul>
     </div>
   </div>
+  <script type="text/javascript">
+  $(document).ready(function() {
+     $('.showmenu').on('click',  function(e){
+        e.preventDefault();
+        $('body').toggleClass('menu-show');
+    });
+  });
+  </script>
 </body>
 </html>
