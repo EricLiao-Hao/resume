@@ -142,8 +142,8 @@ table {
 	margin-top: 5px;
   margin-right: 5px;
 }
-.content .skill img{
-  margin-left: 30% ;
+.content .skill .skill-card img{
+  margin-left: 35% ;
 }
 .orange{
   border-bottom: 2px solid #F58D23;
