@@ -247,6 +247,7 @@ table {
 }
 .footer {
 	background: #424242;
+	padding-bottom:1px;
 }
 .footer h2{
 	text-align: center;
