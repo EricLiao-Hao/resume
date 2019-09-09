@@ -86,7 +86,7 @@ table {
   text-decoration: none;
   color:white;
 }
-@media (max-width:376px){
+@media (max-width:415px){
 	.header .menu ul li{
 		padding-right: 20px;
 		padding-top: 10px;
@@ -136,7 +136,7 @@ table {
 		font-size: 20px;
 	}
 }
-@media (max-width:376px){
+@media (max-width:415px){
 	.content .profile img{
 		margin-left: 20%;
 	}
